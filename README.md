@@ -5,7 +5,10 @@ __[NVIDIA Clara™ Holoscan](https://www.nvidia.com/en-us/clara/medical-devices/
 It consists of:
 
 ## Clara Holoscan SDK
-* **[Clara Holoscan Embedded SDK](https://github.com/nvidia/clara-holoscan-embedded-sdk)**: SDK with sample applications, for "Embedded Software Developer" personas.
+* **Clara Holoscan Embedded SDK**: SDK with sample applications, for "Embedded Software Developer" personas.
+    * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html)
+    * [Source code](https://github.com/nvidia/clara-holoscan-embedded-sdk)
+    * [NGC collection: containers and binaries](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/collections/clara_holoscan)
 * **Clara Holoscan Cloud Native** (_coming soon_): SDK with sample applications, for "Cloud Native Developer" personas.
 
 ## [Clara Developer Kits](https://www.nvidia.com/en-us/clara/developer-kits/)
@@ -15,9 +18,15 @@ It consists of:
 ## [Clara Holoscan MGX](https://www.nvidia.com/en-us/clara/medical-grade-devices/)
 Enabling medical device developers to create the next-generation of AI-enabled medical devices and take it to the market using a medical grade platform.
 * **MGX Hardware** (_coming in 2023_)
-* **MGX Software** Full software stack with 10-year long-term support, as well as documentation to support IEC 62304 certification (_early access in 2023_)
+* **MGX Software** Full software stack with 10-year long-term support, as well as documentation to support IEC 62304 certification
+    * Early access with Clara AGX Developer Kit support:
+        * [Holoscan MGX OpenEmbedded recipes](https://github.com/nvidia/meta-tegra-clara-holoscan-mgx)
+        * [Holoscan MGX OpenEmbedded builder](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-mgx-oe-builder)
+    * Early access with Clara Holoscan Developer Kit in Q4'2022
+    * Early access with MGX HW support in 2023
 
-## [Clara Holoscan Perf Tools](https://github.com/NVIDIA/clara-holoscan-perf-tools)
+## Performance Tools
 Collection of tools to help measure performance of the Holoscan platform (software and hardware).
+* [Clara Holoscan Perf Tools](https://github.com/NVIDIA/clara-holoscan-perf-tools)
 
 Visit the [NVIDIA Developer Page](https://developer.nvidia.com/clara-holoscan-sdk) to learn more about Clara Holoscan and get started today.
