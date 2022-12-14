@@ -3,7 +3,7 @@
 __[NVIDIA Clara™ Holoscan](https://www.nvidia.com/en-us/clara/medical-devices/)__ is the AI computing platform for medical devices that combines hardware systems for low-latency sensor and network connectivity, optimized libraries for data processing and AI, and core microservices to run streaming, imaging, and other applications, from embedded to edge to cloud. It consists of:
 
 ## Clara Holoscan Software
-* **Clara Holoscan Embedded SDK**
+* **Holoscan SDK**
     * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html)
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sdk)
     * [NGC collection: containers and binaries](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/collections/clara_holoscan)
