@@ -6,6 +6,7 @@ __NVIDIA Holoscan__ is the AI sensor processing platform that combines hardware 
 * **Holoscan SDK**
     * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html)
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sdk)
+    * [Python Wheel](https://pypi.org/project/holoscan/)
     * [NGC collection: containers and binaries](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/collections/clara_holoscan)
 * **Deployment Software Stack**
     * [Holoscan OpenEmbedded/Yocto recipes](https://github.com/nvidia-holoscan/meta-tegra-holoscan)
