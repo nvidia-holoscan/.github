@@ -9,7 +9,7 @@ __NVIDIA Holoscan__ is the AI sensor processing platform that combines hardware 
     * [NGC collection: containers and binaries](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/collections/clara_holoscan)
 * **Deployment Software Stack**
     * [Holoscan OpenEmbedded/Yocto recipes](https://github.com/nvidia-holoscan/meta-tegra-holoscan)
-    * [Holoscan OpenEmbedded/Yocto build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-mgx-oe-builder)
+    * [Holoscan OpenEmbedded/Yocto build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-oe-builder)
 
 ## Holoscan Developer Kits
 * **NVIDIA Clara AGX Developer Kit** (Jetson AGX Xavier™, RTX™ 6000 GPU, ConnectX® SmartNIC)
