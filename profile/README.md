@@ -10,8 +10,9 @@ Holoscan consists of:
 * **Holoscan SDK**
     * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html)
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sdk)
-    * [Python Wheel](https://pypi.org/project/holoscan/)
-    * [NGC collection: containers and binaries](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/collections/clara_holoscan)
+    * [Python wheel](https://pypi.org/project/holoscan)
+    * [Debian package](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/resources/holoscan_dev_deb)
+    * [Docker container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan)
 * **HoloHub**
     * [Source code](https://github.com/nvidia-holoscan/holohub)
 * **Deployment Software Stack**
