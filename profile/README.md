@@ -20,8 +20,11 @@ Holoscan consists of:
     * [Holoscan OpenEmbedded/Yocto build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-oe-builder)
 
 ## Holoscan Developer Kits
-* **NVIDIA Clara AGX Developer Kit** (Jetson AGX Xavier™, RTX™ 6000 GPU, ConnectX® SmartNIC)
-* **NVIDIA IGX Orin Developer Kit** (AGX Orin™, RTX™ A6000 GPU, ConnectX® SmartNIC)
+* **NVIDIA Clara AGX Developer Kit**
+    * Jetson AGX Xavier™, RTX™ 6000 GPU, ConnectX® SmartNIC
+    * [User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/master/devkits/clara-agx/clara_agx_user_guide.md)
+* **NVIDIA IGX Orin Developer Kit**
+    * AGX Orin™, RTX™ A6000 GPU, ConnectX® SmartNIC
 
 ## Performance Tools
 Collection of tools to help measure performance of the Holoscan platform (software and hardware).
