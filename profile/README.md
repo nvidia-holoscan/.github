@@ -24,10 +24,10 @@ The Holoscan platform consists of:
 
 * **NVIDIA Clara AGX Developer Kit**
     * Jetson AGX Xavier™, RTX™ 6000 GPU, ConnectX® SmartNIC
-    * [User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/master/devkits/clara-agx/clara_agx_user_guide.md)
+    * [User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/clara-agx/clara_agx_user_guide.md)
 * **NVIDIA IGX Orin Developer Kit**
     * Jetson AGX Orin™, RTX™ A6000 GPU, ConnectX® SmartNIC
-    * [User guide](https://developer.nvidia.com/igx-orin-developer-kit-user-guide)
+    * [User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/nvidia-igx-orin/nvidia_igx_orin_user_guide.md)
 
 ## Additional Tools
 
