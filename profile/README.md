@@ -20,12 +20,12 @@ The Holoscan platform consists of:
     * [OpenEmbedded/Yocto Build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-oe-builder)
     * [OpenEmbedded/Yocto Recipes](https://github.com/nvidia-holoscan/meta-tegra-holoscan)
 
-## Holoscan Developer Kits
+## Developer Kits
 
-* **NVIDIA Clara AGX Developer Kit**
+* **[NVIDIA Clara AGX Developer Kit](https://www.nvidia.com/en-gb/clara/intelligent-medical-instruments/)**
     * Jetson AGX Xavier™, RTX™ 6000 GPU, ConnectX® SmartNIC
     * [User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/clara-agx/clara_agx_user_guide.md)
-* **NVIDIA IGX Orin Developer Kit**
+* **[NVIDIA IGX Orin Developer Kit](https://www.nvidia.com/en-us/edge-computing/products/igx/)**
     * Jetson AGX Orin™, RTX™ A6000 GPU, ConnectX® SmartNIC
     * [User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/nvidia-igx-orin/nvidia_igx_orin_user_guide.md)
 
