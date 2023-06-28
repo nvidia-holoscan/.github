@@ -9,7 +9,7 @@ The Holoscan platform consists of:
 ## Holoscan Software
 
 * **Holoscan SDK**: the Development Kit
-    * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html)
+    * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html) ([PDF](https://developer.nvidia.com/clara-Holoscan-sdk-documentation))
     * [Development container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan)
     * [Debian package](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/resources/holoscan_dev_deb)
     * [Python wheel](https://pypi.org/project/holoscan)
