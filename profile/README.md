@@ -32,7 +32,7 @@ The Holoscan platform consists of:
 
 ### Sensors
 
-* [**Holoscan Sensor Bridge Reference Design**](https://www.latticesemi.com/products/developmentboardsandkits/certuspro-nx-sensor-to-ethernet-bridge-board): bring your own sensor, and leverage this FPGA design to achieve RDMA with the ConnectX NIC of a NVIDIA Developer Kit.
+* [**Holoscan Sensor Bridge Reference Design**](https://www.latticesemi.com/products/developmentboardsandkits/certuspro-nx-sensor-to-ethernet-bridge-board): bring your own sensor, and leverage this FPGA design to send packets over Ethernet, including RDMA support when connected to the ConnectX NIC of a NVIDIA Developer Kit.
 * [**AJA Capture Cards**](https://emergentvisiontec.com/): achieve RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://www.aja.com/nav/products-desktop-io)/[Operator](https://docs.nvidia.com/holoscan/sdk-user-guide/api/cpp/classholoscan_1_1ops_1_1ajasourceop.html)).
 * [**Emergent Vision Tech High-Speed Cameras**](https://emergentvisiontec.com/): achieve RDMA through the ConnectX NIC using the Rivermax SDK and the Emergent Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/emergent_setup.html)/[Operator](https://github.com/nvidia-holoscan/holohub/tree/main/operators/emergent_source)).
 
