@@ -13,7 +13,6 @@ The Holoscan platform consists of:
     * [Python wheel](https://pypi.org/project/holoscan)
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sdk)
 * **HoloHub**: community-driven collection of Holoscan applications, operators, and tutorials
-    * [Website](https://nvidia-holoscan.github.io/holohub)
     * [Source code](https://github.com/nvidia-holoscan/holohub)
 * **Deployment Software Stack**: OpenEmbedded/Yocto layer for optimized deployment of the Holoscan SDK on the Developer Kits
     * [OpenEmbedded/Yocto Build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-oe-builder)
