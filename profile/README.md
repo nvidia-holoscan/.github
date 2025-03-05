@@ -38,7 +38,6 @@ The Holoscan platform consists of:
 ## Additional Tools
 
 * [Holoscan Test Suite](https://github.com/nvidia-holoscan/holoscan-test-suite): support Verification and Validation testing on Holoscan Developer Kits
-* [Holoscan Perf Tools](https://github.com/nvidia-holoscan/holoscan-perf-tools): collection of tools to help measure performance of the Holoscan platform (software and hardware)
 
 ## Note
 
