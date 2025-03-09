@@ -6,15 +6,16 @@ The Holoscan platform consists of:
 
 ## Software
 
+* **Holoscan Reference Applications**: community-driven collection of Holoscan reference applications, operators, benchmarks and tutorials
+    * [Catalog](https://nvidia-holoscan.github.io/holohub/)
+    * [Source code](https://github.com/nvidia-holoscan/holohub)
 * **Holoscan SDK**: the Software Development Kit
     * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html) ([PDF](https://developer.nvidia.com/downloads/holoscan-sdk-user-guide))
     * [Development container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan)
     * [Debian package](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/resources/holoscan_dev_deb)
     * [Python wheel](https://pypi.org/project/holoscan)
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sdk)
-* **Holoscan Reference Applications**: community-driven collection of Holoscan reference applications, operators, benchmarks and tutorials
-    * [Source code](https://github.com/nvidia-holoscan/holohub)
-* **Deployment Software Stack**: OpenEmbedded/Yocto layer for optimized deployment of the Holoscan SDK on the Developer Kits
+* **Holoscan Deployment Stack**: OpenEmbedded/Yocto layer for optimized deployment of applications developed using the Holoscan SDK
     * [OpenEmbedded/Yocto Build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-oe-builder)
     * [OpenEmbedded/Yocto Recipes](https://github.com/nvidia-holoscan/meta-tegra-holoscan)
 * **Holoscan Sensor Bridge Software**: integrate the Holoscan Sensor Bridge Device in a Holoscan Application
