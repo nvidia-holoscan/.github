@@ -26,15 +26,18 @@ The Holoscan platform consists of:
 
 ### Developer Kits
 
+* [**NVIDIA Jetson Orin Nano (Super) Developer Kits**](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit) ([User Guide](https://developer.nvidia.com/embedded/learn/jetson-orin-nano-devkit-user-guide/index.html))
+* [**NVIDIA Jetson AGX Orin Developer Kits**](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit) ([User Guide](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/index.html))
 * [**NVIDIA IGX Orin Developer Kit**](https://www.nvidia.com/en-us/edge-computing/products/igx/) ([User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/nvidia-igx-orin/nvidia_igx_orin_user_guide.md))
 * [**NVIDIA Clara AGX Developer Kit**](https://www.nvidia.com/en-gb/clara/intelligent-medical-instruments/) ([User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/clara-agx/clara_agx_user_guide.md))
-* [**NVIDIA Jetson Orin Developer Kits**](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) ([User Guide](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/index.html))
 
-### Sensors
+### Sensor Interfaces
 
-* [**Holoscan Sensor Bridge Reference Design**](https://www.latticesemi.com/products/developmentboardsandkits/certuspro-nx-sensor-to-ethernet-bridge-board): bring your own sensor, and leverage this FPGA design to send packets over Ethernet, including RDMA support when connected to the ConnectX NIC of a NVIDIA Developer Kit.
-* [**AJA Capture Cards**](https://www.aja.com/nav/products-desktop-io): achieve RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/aja_setup.html)/[Operator](https://docs.nvidia.com/holoscan/sdk-user-guide/api/cpp/classholoscan_1_1ops_1_1ajasourceop.html)).
-* [**Emergent Vision Tech High-Speed Cameras**](https://emergentvisiontec.com/): achieve RDMA through the ConnectX NIC using the Rivermax SDK and the Emergent Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/emergent_setup.html)/[Operator](https://github.com/nvidia-holoscan/holohub/tree/main/operators/emergent_source)).
+* **Holoscan Sensor Bridge Reference Design and DevKits**: bring your own sensor, and leverage this FPGA design to send packets over Ethernet, including RDMA support when connected to the ConnectX NIC of a NVIDIA IGX.
+   * [CertusPro-NX Sensor to Ethernet Bridge Board](https://www.latticesemi.com/products/developmentboardsandkits/certuspro-nx-sensor-to-ethernet-bridge-board)
+   * [PolarFire® FPGA Ethernet Sensor Bridge](https://www.microchip.com/en-us/products/fpgas-and-plds/boards-and-kits/ethernet-sensor-bridge)
+* **PCIe Sensor I/O Cards**: transfer data in an out of Nvidia GPUs using supported PCIe cards from partners using GPUDirect RDMA when installed on NVIDIA IGX.
+   * [**AJA Capture Cards**](https://www.aja.com/nav/products-desktop-io): achieve RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/aja_setup.html)/[Operator](https://docs.nvidia.com/holoscan/sdk-user-guide/api/cpp/classholoscan_1_1ops_1_1ajasourceop.html)).
 
 ## Additional Tools
 
