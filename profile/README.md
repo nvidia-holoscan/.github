@@ -29,6 +29,7 @@ The Holoscan platform consists of:
 
 ## Software Support
 * **Long Term Support**: critical bug fixes and patches for high/critical software vulnerabilities, with guaranteed API stability
+    * [LTSB2 documentation](https://docs.nvidia.com/holoscan/archive/ltsb-2.0/getting_started.html)
     * [Latest LTSB 10-Year Support Branch](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/long_term_support_branch_2_igx)
     * [Latest Production Branch 9-months support](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/production_branch_october_2024)
 
