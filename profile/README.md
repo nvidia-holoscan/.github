@@ -21,6 +21,10 @@ The Holoscan platform consists of:
 * **Holoscan Sensor Bridge Software**: integrate the Holoscan Sensor Bridge Device in a Holoscan Application
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sensor-bridge)
     * [Documentation](https://docs.nvidia.com/holoscan/sensor-bridge/latest)
+* **Holoscan Networking**: packaging of Holoscan [Basic](https://github.com/nvidia-holoscan/holohub/tree/main/operators/basic_network) and [Advanced Networking Operators](https://github.com/nvidia-holoscan/holohub/tree/main/operators/advanced_network)
+    * [Debian Package](https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/sbsa/holoscan-networking_0.1.0-1_arm64.deb)
+* **Holoscan Federated Analytics**: capture and analyze metrics from Holoscan applications on a fleet of edge devices to a central cloud location
+    * [Source code](https://github.com/nvidia-holoscan/holoscan-federated-analytics)
 
 ## Software Support
 * **Long Term Support**: critical bug fixes and patches for high/critical software vulnerabilities, with guaranteed API stability
