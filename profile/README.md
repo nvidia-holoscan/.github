@@ -12,7 +12,7 @@ The Holoscan platform consists of:
 * **Holoscan SDK**: the Software Development Kit
     * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html) ([PDF](https://developer.nvidia.com/downloads/holoscan-sdk-user-guide))
     * [Development container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan)
-    * [Debian package](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/resources/holoscan_dev_deb)
+    * [Debian package](https://developer.nvidia.com/holoscan-downloads) (already configured on Jetson and IGX)
     * [Python wheel](https://pypi.org/project/holoscan)
     * [Conda package](https://anaconda.org/conda-forge/holoscan)
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sdk)
@@ -20,11 +20,11 @@ The Holoscan platform consists of:
     * [OpenEmbedded/Yocto Build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-oe-builder)
     * [OpenEmbedded/Yocto Recipes](https://github.com/nvidia-holoscan/meta-tegra-holoscan)
 * **Holoscan Sensor Bridge Software**: integrate the Holoscan Sensor Bridge Device in a Holoscan Application
-    * [Source code](https://github.com/nvidia-holoscan/holoscan-sensor-bridge)
     * [Documentation](https://docs.nvidia.com/holoscan/sensor-bridge/latest)
-* **Holoscan Networking**:
-    * [High performance networking with Holoscan](https://nvidia-holoscan.github.io/holohub/tutorials/high_performance_networking/)
-    * [Debian Package](https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/sbsa/holoscan-networking_0.1.0-1_arm64.deb)
+    * [Source code](https://github.com/nvidia-holoscan/holoscan-sensor-bridge)
+* **Holoscan Networking**: High performance networking with NVIDIA SmartNICs and NVIDIA Holoscan
+    * [Tutorial and installation instructions](https://nvidia-holoscan.github.io/holohub/tutorials/high_performance_networking/)
+    * [Source code](https://github.com/nvidia-holoscan/holohub/tree/main/operators/advanced_network)
 * **Holoscan Federated Analytics**: capture and analyze metrics from Holoscan applications on a fleet of edge devices to a central cloud location
     * [Source code](https://github.com/nvidia-holoscan/holoscan-federated-analytics)
 
