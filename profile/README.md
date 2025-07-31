@@ -32,7 +32,7 @@ The Holoscan platform consists of:
 * **Long Term Support**: critical bug fixes and patches for high/critical software vulnerabilities, with guaranteed API stability
     * [LTSB2 documentation](https://docs.nvidia.com/holoscan/archive/ltsb-2.0/getting_started.html)
     * [Latest LTSB 10-Year Support Branch](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/long_term_support_branch_2_igx)
-    * [Latest Production Branch 9-months support](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/production_branch_october_2024)
+    * [Latest Production Branch 9-months support](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/production_branch_may_2025)
 
 ## Hardware
 
@@ -52,10 +52,6 @@ The Holoscan platform consists of:
 * **PCIe Sensor I/O Cards**: transfer data in an out of Nvidia GPUs using supported PCIe cards from partners (using GPUDirect RDMA if installed on NVIDIA IGX).
    * [**AJA Capture Cards**](https://www.aja.com/nav/products-desktop-io): achieve GPUDirect RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/aja_setup.html)/[Operator](https://docs.nvidia.com/holoscan/sdk-user-guide/api/cpp/classholoscan_1_1ops_1_1ajasourceop.html)).
    * [**Deltacast Capture Cards**](https://www.deltacast.tv/products/developer-products): achieve GPUDirect RDMA through these PCIe capture cards ([Reference application](https://nvidia-holoscan.github.io/holohub/applications/deltacast_transmitter/?h=deltacast))
-
-## Additional Tools
-
-* [Holoscan Test Suite](https://github.com/nvidia-holoscan/holoscan-test-suite): support Verification and Validation testing on Holoscan Developer Kits
 
 ## Note
 
