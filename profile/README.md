@@ -44,14 +44,14 @@ The Holoscan platform consists of:
 * [**NVIDIA Jetson AGX Orin Developer Kits**](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit) ([User Guide](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/index.html))
 * [**NVIDIA IGX Orin Developer Kit**](https://www.nvidia.com/en-us/edge-computing/products/igx/) ([User guide](https://docs.nvidia.com/igx/user-guide/latest/index.html))
 * [**NVIDIA DGX Spark**](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) ([User Guide](https://docs.nvidia.com/dgx/dgx-spark/index.html))
-* x86 PC or Laptop with supported Nvidia GPUs (Ampere and above)
+* x86 PC or Laptop with supported NVIDIA GPUs (Ampere and above)
 
 ### Sensor Interfaces
 
 * **Holoscan Sensor Bridge Reference Design and DevKits**: bring your own sensor, and leverage this FPGA design to send packets over Ethernet (including RDMA support if connected to the ConnectX NIC).
    * [CertusPro-NX Sensor to Ethernet Bridge Board](https://www.latticesemi.com/products/developmentboardsandkits/certuspro-nx-sensor-to-ethernet-bridge-board)
    * [PolarFire® FPGA Ethernet Sensor Bridge](https://www.microchip.com/en-us/products/fpgas-and-plds/boards-and-kits/ethernet-sensor-bridge)
-* **PCIe Sensor I/O Cards**: transfer data into and out of Nvidia GPUs using supported PCIe cards from partners (using GPUDirect RDMA if installed on NVIDIA IGX).
+* **PCIe Sensor I/O Cards**: transfer data into and out of NVIDIA GPUs using supported PCIe cards from partners (using GPUDirect RDMA if installed on NVIDIA IGX).
    * [**AJA Capture Cards**](https://www.aja.com/nav/products-desktop-io): achieve GPUDirect RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/setup/third-party-hardware-setup/aja-setup)/[Operator](https://nvidia-holoscan.github.io/holohub/operators/aja_source/)).
    * [**Deltacast Capture Cards**](https://www.deltacast.tv/products/developer-products): achieve GPUDirect RDMA through these PCIe capture cards ([Reference application](https://nvidia-holoscan.github.io/holohub/applications/deltacast_transmitter/?h=deltacast))
 
