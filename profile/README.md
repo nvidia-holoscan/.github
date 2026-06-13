@@ -55,6 +55,7 @@ The Holoscan platform consists of:
    * [**AJA Capture Cards**](https://www.aja.com/nav/products-desktop-io): achieve GPUDirect RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/setup/third-party-hardware-setup/aja-setup)/[Operator](https://nvidia-holoscan.github.io/holohub/operators/aja_source/)).
    * [**Deltacast Capture Cards**](https://www.deltacast.tv/products/developer-products): achieve GPUDirect RDMA through these PCIe capture cards ([Reference application](https://nvidia-holoscan.github.io/holohub/applications/deltacast_transmitter/?h=deltacast))
 
-## Note
+---
 
-In previous releases, the prefix [`Clara`](https://developer.nvidia.com/industries/healthcare) was used to define Holoscan as a platform designed initially for [medical devices](https://www.nvidia.com/en-us/clara/developer-kits/). As Holoscan has grown, its potential to serve other areas has become apparent. Starting with version 0.4.0 of the Holoscan SDK, Holoscan is now officially built to be domain-agnostic and can be used to build sensor AI applications in multiple domains. Going forward, domain specific content will be hosted on the [HoloHub](https://github.com/nvidia-holoscan/holohub) repository.
+> [!NOTE]
+> In previous releases, the prefix [`Clara`](https://developer.nvidia.com/industries/healthcare) was used to define Holoscan as a platform designed initially for [medical devices](https://www.nvidia.com/en-us/clara/developer-kits/). As Holoscan has grown, its potential to serve other areas has become apparent. Starting with version 0.4.0 of the Holoscan SDK, Holoscan is now officially built to be domain-agnostic and can be used to build sensor AI applications in multiple domains. Going forward, domain specific content will be hosted on the [HoloHub](https://github.com/nvidia-holoscan/holohub) repository.
