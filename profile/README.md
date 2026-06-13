@@ -10,7 +10,7 @@ The Holoscan platform consists of:
     * [Catalog](https://nvidia-holoscan.github.io/holohub/)
     * [Source code](https://github.com/nvidia-holoscan/holohub)
 * **Holoscan SDK**: the Software Development Kit
-    * [User guide](https://docs.nvidia.com/clara-holoscan/sdk-user-guide/index.html) ([PDF](https://developer.nvidia.com/downloads/holoscan-sdk-user-guide))
+    * [User guide](https://docs.nvidia.com/holoscan/sdk-user-guide/)
     * [Development container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan)
     * [Debian package](https://developer.nvidia.com/holoscan-downloads) (already configured on Jetson and IGX)
     * [Python wheel](https://pypi.org/project/holoscan)
@@ -29,19 +29,21 @@ The Holoscan platform consists of:
     * [Source code](https://github.com/nvidia-holoscan/holoscan-federated-analytics)
 
 ## Software Support
+
 * **Long Term Support**: critical bug fixes and patches for high/critical software vulnerabilities, with guaranteed API stability
     * [LTSB2 documentation](https://docs.nvidia.com/holoscan/archive/ltsb-2.0/getting_started.html)
     * [Latest LTSB 10-Year Support Branch](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/long_term_support_branch_2_igx)
-    * [Latest Production Branch 9-months support](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/production_branch_may_2025)
+    * [Latest Production Branch 9-months support](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/production_branch_6)
 
 ## Hardware
 
 ### Developer Kits
 
+* [**NVIDIA Jetson AGX Thor Developer Kit**](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/) ([User Guide](https://docs.nvidia.com/jetson/agx-thor-devkit/user-guide/latest/index.html))
 * [**NVIDIA Jetson Orin Nano (Super) Developer Kits**](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit) ([User Guide](https://developer.nvidia.com/embedded/learn/jetson-orin-nano-devkit-user-guide/index.html))
 * [**NVIDIA Jetson AGX Orin Developer Kits**](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit) ([User Guide](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/index.html))
-* [**NVIDIA IGX Orin Developer Kit**](https://www.nvidia.com/en-us/edge-computing/products/igx/) ([User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/nvidia-igx-orin/nvidia_igx_orin_user_guide.md))
-* [**NVIDIA Clara AGX Developer Kit**](https://www.nvidia.com/en-gb/clara/intelligent-medical-instruments/) ([User guide](https://github.com/nvidia-holoscan/holoscan-docs/blob/main/devkits/clara-agx/clara_agx_user_guide.md))
+* [**NVIDIA IGX Orin Developer Kit**](https://www.nvidia.com/en-us/edge-computing/products/igx/) ([User guide](https://docs.nvidia.com/igx/user-guide/latest/index.html))
+* [**NVIDIA DGX Spark**](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) ([User Guide](https://docs.nvidia.com/dgx/dgx-spark/index.html))
 * x86 PC or Laptop with supported Nvidia GPUs (Ampere and above)
 
 ### Sensor Interfaces
@@ -49,8 +51,8 @@ The Holoscan platform consists of:
 * **Holoscan Sensor Bridge Reference Design and DevKits**: bring your own sensor, and leverage this FPGA design to send packets over Ethernet (including RDMA support if connected to the ConnectX NIC).
    * [CertusPro-NX Sensor to Ethernet Bridge Board](https://www.latticesemi.com/products/developmentboardsandkits/certuspro-nx-sensor-to-ethernet-bridge-board)
    * [PolarFire® FPGA Ethernet Sensor Bridge](https://www.microchip.com/en-us/products/fpgas-and-plds/boards-and-kits/ethernet-sensor-bridge)
-* **PCIe Sensor I/O Cards**: transfer data in an out of Nvidia GPUs using supported PCIe cards from partners (using GPUDirect RDMA if installed on NVIDIA IGX).
-   * [**AJA Capture Cards**](https://www.aja.com/nav/products-desktop-io): achieve GPUDirect RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/aja_setup.html)/[Operator](https://docs.nvidia.com/holoscan/sdk-user-guide/api/cpp/classholoscan_1_1ops_1_1ajasourceop.html)).
+* **PCIe Sensor I/O Cards**: transfer data into and out of Nvidia GPUs using supported PCIe cards from partners (using GPUDirect RDMA if installed on NVIDIA IGX).
+   * [**AJA Capture Cards**](https://www.aja.com/nav/products-desktop-io): achieve GPUDirect RDMA through these PCIe capture cards using the AJA drivers and Holoscan operator ([Documentation](https://docs.nvidia.com/holoscan/sdk-user-guide/setup/third-party-hardware-setup/aja-setup)/[Operator](https://nvidia-holoscan.github.io/holohub/operators/aja_source/)).
    * [**Deltacast Capture Cards**](https://www.deltacast.tv/products/developer-products): achieve GPUDirect RDMA through these PCIe capture cards ([Reference application](https://nvidia-holoscan.github.io/holohub/applications/deltacast_transmitter/?h=deltacast))
 
 ## Note
