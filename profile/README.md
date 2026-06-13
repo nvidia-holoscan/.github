@@ -17,7 +17,7 @@ The Holoscan platform consists of:
     * [Conda package](https://anaconda.org/conda-forge/holoscan)
     * [Source code](https://github.com/nvidia-holoscan/holoscan-sdk)
 * **Holoscan Deployment Stack**: OpenEmbedded/Yocto layer for optimized deployment of applications developed using the Holoscan SDK
-    * [OpenEmbedded/Yocto Build container](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara-holoscan/containers/holoscan-oe-builder)
+    * [OpenEmbedded/Yocto Build container](https://github.com/nvidia-holoscan/meta-tegra-holoscan/tree/main/env#readme) (built locally; NGC `holoscan-oe-builder` has been retired)
     * [OpenEmbedded/Yocto Recipes](https://github.com/nvidia-holoscan/meta-tegra-holoscan)
 * **Holoscan Sensor Bridge Software**: integrate the Holoscan Sensor Bridge Device in a Holoscan Application
     * [Documentation](https://docs.nvidia.com/holoscan/sensor-bridge/latest)
