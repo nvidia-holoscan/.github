@@ -30,7 +30,7 @@ The Holoscan platform consists of:
 
 ## Software Support
 
-* **Long Term Support**: critical bug fixes and patches for high/critical software vulnerabilities, with guaranteed API stability
+* **Long-Term Support**: critical bug fixes and patches for high/critical software vulnerabilities, with guaranteed API stability
     * [LTSB2 documentation](https://docs.nvidia.com/holoscan/archive/ltsb-2.0/getting_started.html)
     * [Latest LTSB 10-Year Support Branch](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/long_term_support_branch_2_igx)
     * [Latest Production Branch 9-months support](https://catalog.ngc.nvidia.com/orgs/nvidia/collections/production_branch_6)
@@ -58,4 +58,4 @@ The Holoscan platform consists of:
 ---
 
 > [!NOTE]
-> In previous releases, the prefix [`Clara`](https://developer.nvidia.com/industries/healthcare) was used to define Holoscan as a platform designed initially for [medical devices](https://www.nvidia.com/en-us/clara/developer-kits/). As Holoscan has grown, its potential to serve other areas has become apparent. Starting with version 0.4.0 of the Holoscan SDK, Holoscan is now officially built to be domain-agnostic and can be used to build sensor AI applications in multiple domains. Going forward, domain specific content will be hosted on the [HoloHub](https://github.com/nvidia-holoscan/holohub) repository.
+> In previous releases, the prefix [`Clara`](https://developer.nvidia.com/industries/healthcare) was used to define Holoscan as a platform designed initially for [medical devices](https://www.nvidia.com/en-us/clara/developer-kits/). As Holoscan has grown, its potential to serve other areas has become apparent. Starting with version 0.4.0 of the Holoscan SDK, Holoscan is now officially built to be domain-agnostic and can be used to build sensor AI applications in multiple domains. Going forward, domain-specific content will be hosted on the [HoloHub](https://github.com/nvidia-holoscan/holohub) repository.
