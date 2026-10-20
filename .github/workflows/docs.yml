@@ -1,0 +1,51 @@
+name: Documentation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  spelling:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: streetsidesoftware/cspell-action@de2a73e963e7443969755b648a1008f77033c5b2
+        with:
+          config: cspell.json
+          files: "profile/**/*.md"
+          incremental_files_only: false
+          inline: none
+          strict: true
+
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: DavidAnson/markdownlint-cli2-action@6b51ade7a9e4a75a7ad929842dd298a3804ebe8b
+        with:
+          globs: "profile/**/*.md"
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - run: test -s profile/assets/NVIDIA_dark.svg && test -s profile/assets/NVIDIA_light.svg
+      - uses: lycheeverse/lychee-action@885c65f3dc543b57c898c8099f4e08c8afd178a2
+        with:
+          lycheeVersion: v0.20.1
+          args: >-
+            --no-progress
+            --root-dir "$(pwd)"
+            --exclude '^https://raw\.githubusercontent\.com/nvidia-holoscan/\.github/main/profile/assets/NVIDIA_(dark|light)\.svg$'
+            'profile/**/*.md'
