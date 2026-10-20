@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           persist-credentials: false
-      - uses: streetsidesoftware/cspell-action@de2a73e963e7443969755b648a1008f77033c5b2
+      - uses: streetsidesoftware/cspell-action@ce1816e4ce36532956ac6e983737392774b6e169
         with:
           config: cspell.json
           files: "profile/**/*.md"
